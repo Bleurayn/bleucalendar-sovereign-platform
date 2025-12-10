@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BLEUCalendar – Sovereign Temporal Command System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{--bleu:#4f46e5;--heritage:#7c3aed;--light:#f8fafc;--dark:#1e1b4b}
+  body{font-family:system-ui,sans-serif;background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;min-height:100vh;margin:0;display:flex;align-items:center;justify-content:center}
+  .container{max-width:1400px;margin:20px;padding:20px}
+  .header{text-align:center;margin-bottom:40px}
+  .logo{font-size:48px;font-weight:900;background:linear-gradient(135deg,#c084fc,#e879f9);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  .tagline{font-size:22px;opacity:0.9;margin-top:12px}
+  .card{background:rgba(255,255,255,0.12);backdrop-filter:blur(16px);border-radius:24px;padding:32px;box-shadow:0 20px 50px rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.25)}
+  .calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin:30px 0}
+  .day-header{text-align:center;padding:12px;font-weight:600;font-size:14px;background:rgba(255,255,255,0.2);border-radius:12px}
+  .day{background:rgba(255,255,255,0.15);border-radius:16px;padding:16px;min-height:100px;position:relative;transition:all .3s}
+  .day:hover{background:rgba(255,255,255,0.25);transform:translateY(-4px)}
+  .day.today{background:rgba(255,255,255,0.3);border:2px solid white}
+  .heritage{background:linear-gradient(135deg,#7c3aed,#ec4899);color:white}
+  .event{margin:6px 0;padding:6px 10px;background:rgba(255,255,255,0.2);border-radius:8px;font-size:13px}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin:30px 0}
+  .legend-item{display:flex;align-items:center;gap:8px;font-size:14px}
+  .dot{width:12px;height:12px;border-radius:50%}
+  .controls{margin:20px 0;display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+  button{padding:14px 32px;border:none;border-radius:50px;font-weight:600;cursor:pointer;background:white;color:var(--bleu);box-shadow:0 10px 30px rgba(0,0,0,0.3);transition:all .3s}
+  button:hover{transform:translateY(-4px);box-shadow:0 15px 40px rgba(0,0,0,0.4)}
+  .watermark{position:fixed;bottom:15px;right:15px;background:rgba(0,0,0,0.7);color:white;padding:8px 16px;border-radius:8px;font-size:11px}
+  .live-dot{width:10px;height:10px;background:#10b981;border-radius:50%;animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}
+</style>
+</head>
+<body>
+<div class="watermark">
+  © 2025 Cassandra Harrison / Avableu Designs LTD<br>
+  BLEUCalendar Prototype • Commercial platform closed-source
+</div>
+
+<div class="container">
+  <div class="header">
+    <div class="logo">BLEUCalendar</div>
+    <div class="tagline">Corporate • Heritage • Operational Time — One Sovereign Ledger</div>
+    <div style="margin-top:12px;font-size:18px">
+      <span class="live-dot"></span> LIVE SOVEREIGN SYNC
+    </div>
+  </div>
+
+  <div class="card">
+    <div style="text-align:center;margin-bottom:30px">
+      <h2 style="font-size:28px;margin:0">December 2025</h2>
+      <p>Unified View: Corporate • Heritage • Franchise • Finance</p>
+    </div>
+
+    <div class="calendar-grid">
+      <div class="day-header">Sun</div><div class="day-header">Mon</div><div class="day-header">Tue</div>
+      <div class="day-header">Wed</div><div class="day-header">Thu</div><div class="day-header">Fri</div><div class="day-header">Sat</div>
+      
+      <!-- Sample month -->
+      <div class="day today"><strong>10</strong><div class="event">BLEUConfer Launch</div></div>
+      <div class="day heritage"><strong>12</strong><div class="event">Treaty Remembrance</div></div>
+      <div class="day"><strong>15</strong><div class="event">Aureus Review</div></div>
+      <div class="day"><strong>18</strong><div class="event">Equilibria Check-in</div></div>
+      <div class="day"><strong>21</strong><div class="event">Winter Solstice Rite</div></div>
+      <div class="day"><strong>24</strong><div class="event">Escrow Release</div></div>
+      <div class="day"><strong>31</strong><div class="event">Year-End Vault Seal</div></div>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item"><div class="dot" style="background:#fff"></div>Corporate</div>
+      <div class="legend-item"><div class="dot" style="background:#ec4899"></div>Heritage</div>
+      <div class="legend-item"><div class="dot" style="background:#10b981"></div>Franchise</div>
+      <div class="legend-item"><div class="dot" style="background:#f59e0b"></div>Finance</div>
+    </div>
+
+    <div class="controls">
+      <button>Sync BLEUConfer</button>
+      <button>Add Heritage Event</button>
+      <button>Trigger Escrow</button>
+      <button>View Vault Ledger</button>
+    </div>
+  </div>
+</div>
+
+<script>
+console.log('%cBLEUCalendar — CONFIDENTIAL PROTOTYPE\nThis is a public demonstration only. Full platform (heritage engine, AntiSIM, vault sync) is closed-source.', 
+  'color:#dc2626;font-size:16px;font-weight:bold;background:#fee2e2;padding:12px;border-radius:8px;');
+</script>
+</body>
+</html>

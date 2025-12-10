@@ -1,0 +1,105 @@
+{
+  "system": "BLEUCalendar",
+  "version": "2025-09-22",
+  "codex_binding": "BLEULibra | Time & Orchestration",
+  "identity": "Sovereign AI calendar and temporal command system, binding HQ, franchises, heritage, and operations.",
+  "mission": {
+    "statement": "BLEUCalendar synchronizes corporate, heritage, and operational time into one sovereign ledger — surpassing standard calendars with AntiSIM defense and Vault archival.",
+    "pillars": [
+      "Unified Scheduling Across Franchises",
+      "Heritage & Treaty Remembrance",
+      "AntiSIM Protected Events",
+      "Vault Archival of All Timepoints",
+      "Accessibility & Inclusivity",
+      "Cross-Franchise Integration"
+    ]
+  },
+  "modules": {
+    "core": {
+      "features": [
+        "multi-calendar overlay (corporate, personal, heritage)",
+        "time zone harmonization",
+        "AI conflict detection & resolution",
+        "recurrence engine (weekly, monthly, annual)"
+      ]
+    },
+    "heritage_remembrance": {
+      "features": [
+        "treaty remembrance dates",
+        "lineage festivals",
+        "ancestral ritual alerts",
+        "BLEUHeritage Codex sync"
+      ]
+    },
+    "franchise_integration": {
+      "features": [
+        "conference & event dates from BLEUConference",
+        "product launches from Novataria360/AstraÉlan",
+        "curriculum terms from AuraBleu/BLEULearn",
+        "retreats from Bleu is Resting",
+        "culinary/tea ceremonies from Maison"
+      ]
+    },
+    "contracts_finance": {
+      "features": [
+        "invoice due dates",
+        "escrow milestone releases",
+        "grant submission windows",
+        "BLEUSealChain notarization sync"
+      ]
+    },
+    "anti_sim_protection": {
+      "features": [
+        "bot/spam invite rejection",
+        "deepfake meeting prevention",
+        "authenticity seal for every scheduled event"
+      ]
+    },
+    "vault_archive": {
+      "features": [
+        "ledger archival of all events",
+        "immutable timestamps",
+        "heritage-binding memory logs"
+      ]
+    }
+  },
+  "attendee_journey": [
+    "receive AI-curated invite",
+    "identity verified via AntiSIM",
+    "agenda delivery with accessibility options",
+    "event/meeting participation",
+    "feedback survey",
+    "archived in BLEUVault"
+  ],
+  "observability": {
+    "metrics": [
+      "event_attendance_rate",
+      "conflict_resolution_accuracy",
+      "heritage_remembrance_index",
+      "antisim_threats_blocked",
+      "vault_records_synced"
+    ],
+    "alerts": [
+      "double_booking_detected",
+      "heritage_date_overlap",
+      "fraudulent_invite_attempt"
+    ]
+  },
+  "roadmap": {
+    "q4_2025": [
+      "Core calendar + AntiSIM integration",
+      "Vault archival baseline",
+      "multi-calendar overlay"
+    ],
+    "q1_2026": [
+      "heritage remembrance pack",
+      "cross-franchise sync",
+      "finance & contracts integration"
+    ],
+    "q2_2026": [
+      "VR/AR calendar visualizations",
+      "heritage ritual reminders",
+      "global sovereign sync"
+    ]
+  }
+}
